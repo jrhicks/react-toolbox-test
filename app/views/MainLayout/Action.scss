@@ -1,0 +1,10 @@
+@import "./config";
+
+.button {
+  height: $Action-height;
+  margin-left: $Action-margin;
+  > span:not([data-react-toolbox="tooltip"]) {
+    line-height: $Action-height;;
+  }
+
+}

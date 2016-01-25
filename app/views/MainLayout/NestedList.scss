@@ -1,0 +1,25 @@
+@import './config';
+
+.root {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.subItems {
+  padding-left: $list-item-right-icon-margin + $list-item-icon-size;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  transition: all $animation-duration $animation-curve-default;
+}
+
+.subItemsOpen {
+  max-height: 800px;
+  overflow: hidden;
+}
+
+.subItemsClosed {
+  max-height: 0;
+  overflow:hidden;
+}
