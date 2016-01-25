@@ -11,13 +11,13 @@ errors.
 
 Admin Interface requirements achieved in this test
 
-[x] An app bar with a left "App Selector" drop down.
+ [x] An app bar with a left "App Selector" drop down.
 
-[x] A tab bar
+ [x] A tab bar
 
-[x] A drawer (nestled under the tab bar).
+ [x] A drawer (nestled under the tab bar).
 
-[x] A drawer with nested list items.
+ [x] A drawer with nested list items.
 
 Installing
 =======
